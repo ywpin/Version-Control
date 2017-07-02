@@ -1,0 +1,160 @@
+body{
+	margin: auto;
+	background-color: black;
+	color: white;
+	overflow: hidden;
+}
+
+ol, ul {
+    list-style: none outside none;
+}
+
+.slide{
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	box-sizing: border-box;
+}
+
+.slide nav{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top:0;
+	display: block;
+}
+
+.slide nav h1{
+	position: relative;
+	top: 150px;
+	left: 350px;
+	font-size: 120px;
+}
+
+.slide nav h2{
+	position: absolute;
+	top: 250px;
+	left: 250px;
+	font-size: 100px;
+}
+
+.slide nav h3{
+	position: absolute;
+	top: 30px;
+	left: 700px;
+	font-size: 50px;
+}
+
+.slide h3{
+	position: absolute;
+	top: 30px;
+	left: 650px;
+	font-size: 50px;
+}
+
+.slide nav ul{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	font-size: 30px;
+}
+
+.vc{
+	margin-top: 100px;
+	margin-left: 280px;
+	width: 960px;
+	height: 680px;
+}
+
+.vct1{
+	margin-top: 180px;
+	margin-left: 420px;
+	width: 697px;
+	height: 595px;
+}
+
+.vct2{
+	margin-top: 180px;
+	margin-left: 430px;
+	width: 707px;
+	height: 495px;
+}
+
+.vct3{
+	margin-top: 150px;
+	margin-left: 480px;
+	width: 561px;
+	height: 679px;
+}
+
+.qna{
+	margin-top: 150px;
+	margin-left: 200px;
+	width: 1096px;
+	height: 562px;
+}
+
+.slide nav a.full-slide{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.slide nav a.left-slide{
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	margin-top: 0;
+	left: 0;
+	top:0;
+	text-decoration: none;
+}
+
+.slide nav a.right-slide{
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	top:0;
+	right: 0;
+}
+
+#menu{
+	z-index: 2;
+	position: fixed;
+	width: 100%;
+	height: 20px;
+	background-color: red;
+}
+
+#menu ul{
+	display: block;
+	width: 700px;
+	margin: auto;
+}
+
+#menu li{
+	float: left;
+}
+
+#menu li a{
+	display: block;
+	margin: 0.5px 10px;
+	padding: 0.5px 30px;
+	text-decoration: none;
+	color: black;
+}
+
+#menu li a:hover{
+	background-color: black;color: white;
+	animation: fadein 1s;
+}
+
+@keyframes fadein{
+	from{
+		color: black;
+	}
+	to{
+		color: white;
+	}
+}
+
